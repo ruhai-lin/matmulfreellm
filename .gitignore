@@ -1,0 +1,17 @@
+# Ignore virtual environment directories
+.venv/
+
+# Ignore build
+build/
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore training outputs
+mmfreelm-15m/
+mmfreelm.egg-info/
+
+# Ignore Python cache files
+**/__pycache__
+**/**/__pycache__
